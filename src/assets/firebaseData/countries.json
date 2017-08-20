@@ -1,0 +1,3342 @@
+{
+    "countries" : [
+        {
+            "name":"Argentina",
+            "topLevelDomain":[
+                ".ar"
+            ],
+            "alpha2Code":"AR",
+            "alpha3Code":"ARG",
+            "callingCodes":[
+                "54"
+            ],
+            "capital":"Buenos Aires",
+            "altSpellings":[
+                "AR",
+                "Argentine Republic",
+                "República Argentina"
+            ],
+            "region":"Americas",
+            "subregion":"South America",
+            "population":43590400,
+            "latlng":[
+                -34.0,
+                -64.0
+            ],
+            "demonym":"Argentinean",
+            "area":2780400.0,
+            "gini":44.5,
+            "timezones":[
+                "UTC-03:00"
+            ],
+            "borders":[
+                "BOL",
+                "BRA",
+                "CHL",
+                "PRY",
+                "URY"
+            ],
+            "nativeName":"Argentina",
+            "numericCode":"032",
+            "currencies":[
+                {
+                    "code":"ARS",
+                    "name":"Argentine peso",
+                    "symbol":"$"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"es",
+                    "iso639_2":"spa",
+                    "name":"Spanish",
+                    "nativeName":"Español"
+                },
+                {
+                    "iso639_1":"gn",
+                    "iso639_2":"grn",
+                    "name":"Guaraní",
+                    "nativeName":"Avañe'ẽ"
+                }
+            ],
+            "translations":{
+                "de":"Argentinien",
+                "es":"Argentina",
+                "fr":"Argentine",
+                "ja":"アルゼンチン",
+                "it":"Argentina",
+                "br":"Argentina",
+                "pt":"Argentina"
+            },
+            "flag":"https://restcountries.eu/data/arg.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"USAN",
+                    "name":"Union of South American Nations",
+                    "otherAcronyms":[
+                        "UNASUR",
+                        "UNASUL",
+                        "UZAN"
+                    ],
+                    "otherNames":[
+                        "Unión de Naciones Suramericanas",
+                        "União de Nações Sul-Americanas",
+                        "Unie van Zuid-Amerikaanse Naties",
+                        "South American Union"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Australia",
+            "topLevelDomain":[
+                ".au"
+            ],
+            "alpha2Code":"AU",
+            "alpha3Code":"AUS",
+            "callingCodes":[
+                "61"
+            ],
+            "capital":"Canberra",
+            "altSpellings":[
+                "AU"
+            ],
+            "region":"Oceania",
+            "subregion":"Australia and New Zealand",
+            "population":24117360,
+            "latlng":[
+                -27.0,
+                133.0
+            ],
+            "demonym":"Australian",
+            "area":7692024.0,
+            "gini":30.5,
+            "timezones":[
+                "UTC+05:00",
+                "UTC+06:30",
+                "UTC+07:00",
+                "UTC+08:00",
+                "UTC+09:30",
+                "UTC+10:00",
+                "UTC+10:30",
+                "UTC+11:30"
+            ],
+            "borders":[
+
+            ],
+            "nativeName":"Australia",
+            "numericCode":"036",
+            "currencies":[
+                {
+                    "code":"AUD",
+                    "name":"Australian dollar",
+                    "symbol":"$"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Australien",
+                "es":"Australia",
+                "fr":"Australie",
+                "ja":"オーストラリア",
+                "it":"Australia",
+                "br":"Austrália",
+                "pt":"Austrália"
+            },
+            "flag":"https://restcountries.eu/data/aus.svg",
+            "regionalBlocs":[
+
+            ]
+        },
+        {
+            "name":"Austria",
+            "topLevelDomain":[
+                ".at"
+            ],
+            "alpha2Code":"AT",
+            "alpha3Code":"AUT",
+            "callingCodes":[
+                "43"
+            ],
+            "capital":"Vienna",
+            "altSpellings":[
+                "AT",
+                "Österreich",
+                "Osterreich",
+                "Oesterreich"
+            ],
+            "region":"Europe",
+            "subregion":"Western Europe",
+            "population":8725931,
+            "latlng":[
+                47.33333333,
+                13.33333333
+            ],
+            "demonym":"Austrian",
+            "area":83871.0,
+            "gini":26.0,
+            "timezones":[
+                "UTC+01:00"
+            ],
+            "borders":[
+                "CZE",
+                "DEU",
+                "HUN",
+                "ITA",
+                "LIE",
+                "SVK",
+                "SVN",
+                "CHE"
+            ],
+            "nativeName":"Österreich",
+            "numericCode":"040",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"de",
+                    "iso639_2":"deu",
+                    "name":"German",
+                    "nativeName":"Deutsch"
+                }
+            ],
+            "translations":{
+                "de":"Österreich",
+                "es":"Austria",
+                "fr":"Autriche",
+                "ja":"オーストリア",
+                "it":"Austria",
+                "br":"áustria",
+                "pt":"áustria"
+            },
+            "flag":"https://restcountries.eu/data/aut.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Bahamas",
+            "topLevelDomain":[
+                ".bs"
+            ],
+            "alpha2Code":"BS",
+            "alpha3Code":"BHS",
+            "callingCodes":[
+                "1242"
+            ],
+            "capital":"Nassau",
+            "altSpellings":[
+                "BS",
+                "Commonwealth of the Bahamas"
+            ],
+            "region":"Americas",
+            "subregion":"Caribbean",
+            "population":378040,
+            "latlng":[
+                24.25,
+                -76.0
+            ],
+            "demonym":"Bahamian",
+            "area":13943.0,
+            "gini":null,
+            "timezones":[
+                "UTC-05:00"
+            ],
+            "borders":[
+
+            ],
+            "nativeName":"Bahamas",
+            "numericCode":"044",
+            "currencies":[
+                {
+                    "code":"BSD",
+                    "name":"Bahamian dollar",
+                    "symbol":"$"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Bahamas",
+                "es":"Bahamas",
+                "fr":"Bahamas",
+                "ja":"バハマ",
+                "it":"Bahamas",
+                "br":"Bahamas",
+                "pt":"Baamas"
+            },
+            "flag":"https://restcountries.eu/data/bhs.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"CARICOM",
+                    "name":"Caribbean Community",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "Comunidad del Caribe",
+                        "Communauté Caribéenne",
+                        "Caribische Gemeenschap"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Belgium",
+            "topLevelDomain":[
+                ".be"
+            ],
+            "alpha2Code":"BE",
+            "alpha3Code":"BEL",
+            "callingCodes":[
+                "32"
+            ],
+            "capital":"Brussels",
+            "altSpellings":[
+                "BE",
+                "België",
+                "Belgie",
+                "Belgien",
+                "Belgique",
+                "Kingdom of Belgium",
+                "Koninkrijk België",
+                "Royaume de Belgique",
+                "Königreich Belgien"
+            ],
+            "region":"Europe",
+            "subregion":"Western Europe",
+            "population":11319511,
+            "latlng":[
+                50.83333333,
+                4.0
+            ],
+            "demonym":"Belgian",
+            "area":30528.0,
+            "gini":33.0,
+            "timezones":[
+                "UTC+01:00"
+            ],
+            "borders":[
+                "FRA",
+                "DEU",
+                "LUX",
+                "NLD"
+            ],
+            "nativeName":"België",
+            "numericCode":"056",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"nl",
+                    "iso639_2":"nld",
+                    "name":"Dutch",
+                    "nativeName":"Nederlands"
+                },
+                {
+                    "iso639_1":"fr",
+                    "iso639_2":"fra",
+                    "name":"French",
+                    "nativeName":"français"
+                },
+                {
+                    "iso639_1":"de",
+                    "iso639_2":"deu",
+                    "name":"German",
+                    "nativeName":"Deutsch"
+                }
+            ],
+            "translations":{
+                "de":"Belgien",
+                "es":"Bélgica",
+                "fr":"Belgique",
+                "ja":"ベルギー",
+                "it":"Belgio",
+                "br":"Bélgica",
+                "pt":"Bélgica"
+            },
+            "flag":"https://restcountries.eu/data/bel.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Brazil",
+            "topLevelDomain":[
+                ".br"
+            ],
+            "alpha2Code":"BR",
+            "alpha3Code":"BRA",
+            "callingCodes":[
+                "55"
+            ],
+            "capital":"Brasília",
+            "altSpellings":[
+                "BR",
+                "Brasil",
+                "Federative Republic of Brazil",
+                "República Federativa do Brasil"
+            ],
+            "region":"Americas",
+            "subregion":"South America",
+            "population":206135893,
+            "latlng":[
+                -10.0,
+                -55.0
+            ],
+            "demonym":"Brazilian",
+            "area":8515767.0,
+            "gini":54.7,
+            "timezones":[
+                "UTC-05:00",
+                "UTC-04:00",
+                "UTC-03:00",
+                "UTC-02:00"
+            ],
+            "borders":[
+                "ARG",
+                "BOL",
+                "COL",
+                "GUF",
+                "GUY",
+                "PRY",
+                "PER",
+                "SUR",
+                "URY",
+                "VEN"
+            ],
+            "nativeName":"Brasil",
+            "numericCode":"076",
+            "currencies":[
+                {
+                    "code":"BRL",
+                    "name":"Brazilian real",
+                    "symbol":"R$"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"pt",
+                    "iso639_2":"por",
+                    "name":"Portuguese",
+                    "nativeName":"Português"
+                }
+            ],
+            "translations":{
+                "de":"Brasilien",
+                "es":"Brasil",
+                "fr":"Brésil",
+                "ja":"ブラジル",
+                "it":"Brasile",
+                "br":"Brasil",
+                "pt":"Brasil"
+            },
+            "flag":"https://restcountries.eu/data/bra.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"USAN",
+                    "name":"Union of South American Nations",
+                    "otherAcronyms":[
+                        "UNASUR",
+                        "UNASUL",
+                        "UZAN"
+                    ],
+                    "otherNames":[
+                        "Unión de Naciones Suramericanas",
+                        "União de Nações Sul-Americanas",
+                        "Unie van Zuid-Amerikaanse Naties",
+                        "South American Union"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Canada",
+            "topLevelDomain":[
+                ".ca"
+            ],
+            "alpha2Code":"CA",
+            "alpha3Code":"CAN",
+            "callingCodes":[
+                "1"
+            ],
+            "capital":"Ottawa",
+            "altSpellings":[
+                "CA"
+            ],
+            "region":"Americas",
+            "subregion":"Northern America",
+            "population":36155487,
+            "latlng":[
+                60.0,
+                -95.0
+            ],
+            "demonym":"Canadian",
+            "area":9984670.0,
+            "gini":32.6,
+            "timezones":[
+                "UTC-08:00",
+                "UTC-07:00",
+                "UTC-06:00",
+                "UTC-05:00",
+                "UTC-04:00",
+                "UTC-03:30"
+            ],
+            "borders":[
+                "USA"
+            ],
+            "nativeName":"Canada",
+            "numericCode":"124",
+            "currencies":[
+                {
+                    "code":"CAD",
+                    "name":"Canadian dollar",
+                    "symbol":"$"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                },
+                {
+                    "iso639_1":"fr",
+                    "iso639_2":"fra",
+                    "name":"French",
+                    "nativeName":"français"
+                }
+            ],
+            "translations":{
+                "de":"Kanada",
+                "es":"Canadá",
+                "fr":"Canada",
+                "ja":"カナダ",
+                "it":"Canada",
+                "br":"Canadá",
+                "pt":"Canadá"
+            },
+            "flag":"https://restcountries.eu/data/can.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"NAFTA",
+                    "name":"North American Free Trade Agreement",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "Tratado de Libre Comercio de América del Norte",
+                        "Accord de Libre-échange Nord-Américain"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Chad",
+            "topLevelDomain":[
+                ".td"
+            ],
+            "alpha2Code":"TD",
+            "alpha3Code":"TCD",
+            "callingCodes":[
+                "235"
+            ],
+            "capital":"N'Djamena",
+            "altSpellings":[
+                "TD",
+                "Tchad",
+                "Republic of Chad",
+                "République du Tchad"
+            ],
+            "region":"Africa",
+            "subregion":"Middle Africa",
+            "population":14497000,
+            "latlng":[
+                15.0,
+                19.0
+            ],
+            "demonym":"Chadian",
+            "area":1284000.0,
+            "gini":39.8,
+            "timezones":[
+                "UTC+01:00"
+            ],
+            "borders":[
+                "CMR",
+                "CAF",
+                "LBY",
+                "NER",
+                "NGA",
+                "SSD"
+            ],
+            "nativeName":"Tchad",
+            "numericCode":"148",
+            "currencies":[
+                {
+                    "code":"XAF",
+                    "name":"Central African CFA franc",
+                    "symbol":"Fr"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"fr",
+                    "iso639_2":"fra",
+                    "name":"French",
+                    "nativeName":"français"
+                },
+                {
+                    "iso639_1":"ar",
+                    "iso639_2":"ara",
+                    "name":"Arabic",
+                    "nativeName":"العربية"
+                }
+            ],
+            "translations":{
+                "de":"Tschad",
+                "es":"Chad",
+                "fr":"Tchad",
+                "ja":"チャド",
+                "it":"Ciad",
+                "br":"Chade",
+                "pt":"Chade"
+            },
+            "flag":"https://restcountries.eu/data/tcd.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"China",
+            "topLevelDomain":[
+                ".cn"
+            ],
+            "alpha2Code":"CN",
+            "alpha3Code":"CHN",
+            "callingCodes":[
+                "86"
+            ],
+            "capital":"Beijing",
+            "altSpellings":[
+                "CN",
+                "Zhōngguó",
+                "Zhongguo",
+                "Zhonghua",
+                "People's Republic of China",
+                "中华人民共和国",
+                "Zhōnghuá Rénmín Gònghéguó"
+            ],
+            "region":"Asia",
+            "subregion":"Eastern Asia",
+            "population":1377422166,
+            "latlng":[
+                35.0,
+                105.0
+            ],
+            "demonym":"Chinese",
+            "area":9640011.0,
+            "gini":47.0,
+            "timezones":[
+                "UTC+08:00"
+            ],
+            "borders":[
+                "AFG",
+                "BTN",
+                "MMR",
+                "HKG",
+                "IND",
+                "KAZ",
+                "PRK",
+                "KGZ",
+                "LAO",
+                "MAC",
+                "MNG",
+                "PAK",
+                "RUS",
+                "TJK",
+                "VNM"
+            ],
+            "nativeName":"中国",
+            "numericCode":"156",
+            "currencies":[
+                {
+                    "code":"CNY",
+                    "name":"Chinese yuan",
+                    "symbol":"¥"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"zh",
+                    "iso639_2":"zho",
+                    "name":"Chinese",
+                    "nativeName":"中文 (Zhōngwén)"
+                }
+            ],
+            "translations":{
+                "de":"China",
+                "es":"China",
+                "fr":"Chine",
+                "ja":"中国",
+                "it":"Cina",
+                "br":"China",
+                "pt":"China"
+            },
+            "flag":"https://restcountries.eu/data/chn.svg",
+            "regionalBlocs":[
+
+            ]
+        },
+        {
+            "name":"Colombia",
+            "topLevelDomain":[
+                ".co"
+            ],
+            "alpha2Code":"CO",
+            "alpha3Code":"COL",
+            "callingCodes":[
+                "57"
+            ],
+            "capital":"Bogotá",
+            "altSpellings":[
+                "CO",
+                "Republic of Colombia",
+                "República de Colombia"
+            ],
+            "region":"Americas",
+            "subregion":"South America",
+            "population":48759958,
+            "latlng":[
+                4.0,
+                -72.0
+            ],
+            "demonym":"Colombian",
+            "area":1141748.0,
+            "gini":55.9,
+            "timezones":[
+                "UTC-05:00"
+            ],
+            "borders":[
+                "BRA",
+                "ECU",
+                "PAN",
+                "PER",
+                "VEN"
+            ],
+            "nativeName":"Colombia",
+            "numericCode":"170",
+            "currencies":[
+                {
+                    "code":"COP",
+                    "name":"Colombian peso",
+                    "symbol":"$"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"es",
+                    "iso639_2":"spa",
+                    "name":"Spanish",
+                    "nativeName":"Español"
+                }
+            ],
+            "translations":{
+                "de":"Kolumbien",
+                "es":"Colombia",
+                "fr":"Colombie",
+                "ja":"コロンビア",
+                "it":"Colombia",
+                "br":"Colômbia",
+                "pt":"Colômbia"
+            },
+            "flag":"https://restcountries.eu/data/col.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"PA",
+                    "name":"Pacific Alliance",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "Alianza del Pacífico"
+                    ]
+                },
+                {
+                    "acronym":"USAN",
+                    "name":"Union of South American Nations",
+                    "otherAcronyms":[
+                        "UNASUR",
+                        "UNASUL",
+                        "UZAN"
+                    ],
+                    "otherNames":[
+                        "Unión de Naciones Suramericanas",
+                        "União de Nações Sul-Americanas",
+                        "Unie van Zuid-Amerikaanse Naties",
+                        "South American Union"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Denmark",
+            "topLevelDomain":[
+                ".dk"
+            ],
+            "alpha2Code":"DK",
+            "alpha3Code":"DNK",
+            "callingCodes":[
+                "45"
+            ],
+            "capital":"Copenhagen",
+            "altSpellings":[
+                "DK",
+                "Danmark",
+                "Kingdom of Denmark",
+                "Kongeriget Danmark"
+            ],
+            "region":"Europe",
+            "subregion":"Northern Europe",
+            "population":5717014,
+            "latlng":[
+                56.0,
+                10.0
+            ],
+            "demonym":"Danish",
+            "area":43094.0,
+            "gini":24.0,
+            "timezones":[
+                "UTC-04:00",
+                "UTC-03:00",
+                "UTC-01:00",
+                "UTC",
+                "UTC+01:00"
+            ],
+            "borders":[
+                "DEU"
+            ],
+            "nativeName":"Danmark",
+            "numericCode":"208",
+            "currencies":[
+                {
+                    "code":"DKK",
+                    "name":"Danish krone",
+                    "symbol":"kr"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"da",
+                    "iso639_2":"dan",
+                    "name":"Danish",
+                    "nativeName":"dansk"
+                }
+            ],
+            "translations":{
+                "de":"Dänemark",
+                "es":"Dinamarca",
+                "fr":"Danemark",
+                "ja":"デンマーク",
+                "it":"Danimarca",
+                "br":"Dinamarca",
+                "pt":"Dinamarca"
+            },
+            "flag":"https://restcountries.eu/data/dnk.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Egypt",
+            "topLevelDomain":[
+                ".eg"
+            ],
+            "alpha2Code":"EG",
+            "alpha3Code":"EGY",
+            "callingCodes":[
+                "20"
+            ],
+            "capital":"Cairo",
+            "altSpellings":[
+                "EG",
+                "Arab Republic of Egypt"
+            ],
+            "region":"Africa",
+            "subregion":"Northern Africa",
+            "population":91290000,
+            "latlng":[
+                27.0,
+                30.0
+            ],
+            "demonym":"Egyptian",
+            "area":1002450.0,
+            "gini":30.8,
+            "timezones":[
+                "UTC+02:00"
+            ],
+            "borders":[
+                "ISR",
+                "LBY",
+                "SDN"
+            ],
+            "nativeName":"مصر‎",
+            "numericCode":"818",
+            "currencies":[
+                {
+                    "code":"EGP",
+                    "name":"Egyptian pound",
+                    "symbol":"£"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"ar",
+                    "iso639_2":"ara",
+                    "name":"Arabic",
+                    "nativeName":"العربية"
+                }
+            ],
+            "translations":{
+                "de":"Ägypten",
+                "es":"Egipto",
+                "fr":"Égypte",
+                "ja":"エジプト",
+                "it":"Egitto",
+                "br":"Egito",
+                "pt":"Egipto"
+            },
+            "flag":"https://restcountries.eu/data/egy.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                },
+                {
+                    "acronym":"AL",
+                    "name":"Arab League",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "جامعة الدول العربية",
+                        "Jāmiʻat ad-Duwal al-ʻArabīyah",
+                        "League of Arab States"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Ethiopia",
+            "topLevelDomain":[
+                ".et"
+            ],
+            "alpha2Code":"ET",
+            "alpha3Code":"ETH",
+            "callingCodes":[
+                "251"
+            ],
+            "capital":"Addis Ababa",
+            "altSpellings":[
+                "ET",
+                "ʾĪtyōṗṗyā",
+                "Federal Democratic Republic of Ethiopia",
+                "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+            ],
+            "region":"Africa",
+            "subregion":"Eastern Africa",
+            "population":92206005,
+            "latlng":[
+                8.0,
+                38.0
+            ],
+            "demonym":"Ethiopian",
+            "area":1104300.0,
+            "gini":29.8,
+            "timezones":[
+                "UTC+03:00"
+            ],
+            "borders":[
+                "DJI",
+                "ERI",
+                "KEN",
+                "SOM",
+                "SSD",
+                "SDN"
+            ],
+            "nativeName":"ኢትዮጵያ",
+            "numericCode":"231",
+            "currencies":[
+                {
+                    "code":"ETB",
+                    "name":"Ethiopian birr",
+                    "symbol":"Br"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"am",
+                    "iso639_2":"amh",
+                    "name":"Amharic",
+                    "nativeName":"አማርኛ"
+                }
+            ],
+            "translations":{
+                "de":"Äthiopien",
+                "es":"Etiopía",
+                "fr":"Éthiopie",
+                "ja":"エチオピア",
+                "it":"Etiopia",
+                "br":"Etiópia",
+                "pt":"Etiópia"
+            },
+            "flag":"https://restcountries.eu/data/eth.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"France",
+            "topLevelDomain":[
+                ".fr"
+            ],
+            "alpha2Code":"FR",
+            "alpha3Code":"FRA",
+            "callingCodes":[
+                "33"
+            ],
+            "capital":"Paris",
+            "altSpellings":[
+                "FR",
+                "French Republic",
+                "République française"
+            ],
+            "region":"Europe",
+            "subregion":"Western Europe",
+            "population":66710000,
+            "latlng":[
+                46.0,
+                2.0
+            ],
+            "demonym":"French",
+            "area":640679.0,
+            "gini":32.7,
+            "timezones":[
+                "UTC-10:00",
+                "UTC-09:30",
+                "UTC-09:00",
+                "UTC-08:00",
+                "UTC-04:00",
+                "UTC-03:00",
+                "UTC+01:00",
+                "UTC+03:00",
+                "UTC+04:00",
+                "UTC+05:00",
+                "UTC+11:00",
+                "UTC+12:00"
+            ],
+            "borders":[
+                "AND",
+                "BEL",
+                "DEU",
+                "ITA",
+                "LUX",
+                "MCO",
+                "ESP",
+                "CHE"
+            ],
+            "nativeName":"France",
+            "numericCode":"250",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"fr",
+                    "iso639_2":"fra",
+                    "name":"French",
+                    "nativeName":"français"
+                }
+            ],
+            "translations":{
+                "de":"Frankreich",
+                "es":"Francia",
+                "fr":"France",
+                "ja":"フランス",
+                "it":"Francia",
+                "br":"França",
+                "pt":"França"
+            },
+            "flag":"https://restcountries.eu/data/fra.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Germany",
+            "topLevelDomain":[
+                ".de"
+            ],
+            "alpha2Code":"DE",
+            "alpha3Code":"DEU",
+            "callingCodes":[
+                "49"
+            ],
+            "capital":"Berlin",
+            "altSpellings":[
+                "DE",
+                "Federal Republic of Germany",
+                "Bundesrepublik Deutschland"
+            ],
+            "region":"Europe",
+            "subregion":"Western Europe",
+            "population":81770900,
+            "latlng":[
+                51.0,
+                9.0
+            ],
+            "demonym":"German",
+            "area":357114.0,
+            "gini":28.3,
+            "timezones":[
+                "UTC+01:00"
+            ],
+            "borders":[
+                "AUT",
+                "BEL",
+                "CZE",
+                "DNK",
+                "FRA",
+                "LUX",
+                "NLD",
+                "POL",
+                "CHE"
+            ],
+            "nativeName":"Deutschland",
+            "numericCode":"276",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"de",
+                    "iso639_2":"deu",
+                    "name":"German",
+                    "nativeName":"Deutsch"
+                }
+            ],
+            "translations":{
+                "de":"Deutschland",
+                "es":"Alemania",
+                "fr":"Allemagne",
+                "ja":"ドイツ",
+                "it":"Germania",
+                "br":"Alemanha",
+                "pt":"Alemanha"
+            },
+            "flag":"https://restcountries.eu/data/deu.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Ghana",
+            "topLevelDomain":[
+                ".gh"
+            ],
+            "alpha2Code":"GH",
+            "alpha3Code":"GHA",
+            "callingCodes":[
+                "233"
+            ],
+            "capital":"Accra",
+            "altSpellings":[
+                "GH"
+            ],
+            "region":"Africa",
+            "subregion":"Western Africa",
+            "population":27670174,
+            "latlng":[
+                8.0,
+                -2.0
+            ],
+            "demonym":"Ghanaian",
+            "area":238533.0,
+            "gini":42.8,
+            "timezones":[
+                "UTC"
+            ],
+            "borders":[
+                "BFA",
+                "CIV",
+                "TGO"
+            ],
+            "nativeName":"Ghana",
+            "numericCode":"288",
+            "currencies":[
+                {
+                    "code":"GHS",
+                    "name":"Ghanaian cedi",
+                    "symbol":"₵"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Ghana",
+                "es":"Ghana",
+                "fr":"Ghana",
+                "ja":"ガーナ",
+                "it":"Ghana",
+                "br":"Gana",
+                "pt":"Gana"
+            },
+            "flag":"https://restcountries.eu/data/gha.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Greece",
+            "topLevelDomain":[
+                ".gr"
+            ],
+            "alpha2Code":"GR",
+            "alpha3Code":"GRC",
+            "callingCodes":[
+                "30"
+            ],
+            "capital":"Athens",
+            "altSpellings":[
+                "GR",
+                "Elláda",
+                "Hellenic Republic",
+                "Ελληνική Δημοκρατία"
+            ],
+            "region":"Europe",
+            "subregion":"Southern Europe",
+            "population":10858018,
+            "latlng":[
+                39.0,
+                22.0
+            ],
+            "demonym":"Greek",
+            "area":131990.0,
+            "gini":34.3,
+            "timezones":[
+                "UTC+02:00"
+            ],
+            "borders":[
+                "ALB",
+                "BGR",
+                "TUR",
+                "MKD"
+            ],
+            "nativeName":"Ελλάδα",
+            "numericCode":"300",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"el",
+                    "iso639_2":"ell",
+                    "name":"Greek (modern)",
+                    "nativeName":"ελληνικά"
+                }
+            ],
+            "translations":{
+                "de":"Griechenland",
+                "es":"Grecia",
+                "fr":"Grèce",
+                "ja":"ギリシャ",
+                "it":"Grecia",
+                "br":"Grécia",
+                "pt":"Grécia"
+            },
+            "flag":"https://restcountries.eu/data/grc.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Guadeloupe",
+            "topLevelDomain":[
+                ".gp"
+            ],
+            "alpha2Code":"GP",
+            "alpha3Code":"GLP",
+            "callingCodes":[
+                "590"
+            ],
+            "capital":"Basse-Terre",
+            "altSpellings":[
+                "GP",
+                "Gwadloup"
+            ],
+            "region":"Americas",
+            "subregion":"Caribbean",
+            "population":400132,
+            "latlng":[
+                16.25,
+                -61.583333
+            ],
+            "demonym":"Guadeloupian",
+            "area":null,
+            "gini":null,
+            "timezones":[
+                "UTC-04:00"
+            ],
+            "borders":[
+
+            ],
+            "nativeName":"Guadeloupe",
+            "numericCode":"312",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"fr",
+                    "iso639_2":"fra",
+                    "name":"French",
+                    "nativeName":"français"
+                }
+            ],
+            "translations":{
+                "de":"Guadeloupe",
+                "es":"Guadalupe",
+                "fr":"Guadeloupe",
+                "ja":"グアドループ",
+                "it":"Guadeloupa",
+                "br":"Guadalupe",
+                "pt":"Guadalupe"
+            },
+            "flag":"https://restcountries.eu/data/glp.svg",
+            "regionalBlocs":[
+
+            ]
+        },
+        {
+            "name":"India",
+            "topLevelDomain":[
+                ".in"
+            ],
+            "alpha2Code":"IN",
+            "alpha3Code":"IND",
+            "callingCodes":[
+                "91"
+            ],
+            "capital":"New Delhi",
+            "altSpellings":[
+                "IN",
+                "Bhārat",
+                "Republic of India",
+                "Bharat Ganrajya"
+            ],
+            "region":"Asia",
+            "subregion":"Southern Asia",
+            "population":1295210000,
+            "latlng":[
+                20.0,
+                77.0
+            ],
+            "demonym":"Indian",
+            "area":3287590.0,
+            "gini":33.4,
+            "timezones":[
+                "UTC+05:30"
+            ],
+            "borders":[
+                "AFG",
+                "BGD",
+                "BTN",
+                "MMR",
+                "CHN",
+                "NPL",
+                "PAK",
+                "LKA"
+            ],
+            "nativeName":"भारत",
+            "numericCode":"356",
+            "currencies":[
+                {
+                    "code":"INR",
+                    "name":"Indian rupee",
+                    "symbol":"₹"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"hi",
+                    "iso639_2":"hin",
+                    "name":"Hindi",
+                    "nativeName":"हिन्दी"
+                },
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Indien",
+                "es":"India",
+                "fr":"Inde",
+                "ja":"インド",
+                "it":"India",
+                "br":"Índia",
+                "pt":"Índia"
+            },
+            "flag":"https://restcountries.eu/data/ind.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"SAARC",
+                    "name":"South Asian Association for Regional Cooperation",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Israel",
+            "topLevelDomain":[
+                ".il"
+            ],
+            "alpha2Code":"IL",
+            "alpha3Code":"ISR",
+            "callingCodes":[
+                "972"
+            ],
+            "capital":"Jerusalem",
+            "altSpellings":[
+                "IL",
+                "State of Israel",
+                "Medīnat Yisrā'el"
+            ],
+            "region":"Asia",
+            "subregion":"Western Asia",
+            "population":8527400,
+            "latlng":[
+                31.5,
+                34.75
+            ],
+            "demonym":"Israeli",
+            "area":20770.0,
+            "gini":39.2,
+            "timezones":[
+                "UTC+02:00"
+            ],
+            "borders":[
+                "EGY",
+                "JOR",
+                "LBN",
+                "SYR"
+            ],
+            "nativeName":"יִשְׂרָאֵל",
+            "numericCode":"376",
+            "currencies":[
+                {
+                    "code":"ILS",
+                    "name":"Israeli new shekel",
+                    "symbol":"₪"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"he",
+                    "iso639_2":"heb",
+                    "name":"Hebrew (modern)",
+                    "nativeName":"עברית"
+                },
+                {
+                    "iso639_1":"ar",
+                    "iso639_2":"ara",
+                    "name":"Arabic",
+                    "nativeName":"العربية"
+                }
+            ],
+            "translations":{
+                "de":"Israel",
+                "es":"Israel",
+                "fr":"Israël",
+                "ja":"イスラエル",
+                "it":"Israele",
+                "br":"Israel",
+                "pt":"Israel"
+            },
+            "flag":"https://restcountries.eu/data/isr.svg",
+            "regionalBlocs":[
+
+            ]
+        },
+        {
+            "name":"Italy",
+            "topLevelDomain":[
+                ".it"
+            ],
+            "alpha2Code":"IT",
+            "alpha3Code":"ITA",
+            "callingCodes":[
+                "39"
+            ],
+            "capital":"Rome",
+            "altSpellings":[
+                "IT",
+                "Italian Republic",
+                "Repubblica italiana"
+            ],
+            "region":"Europe",
+            "subregion":"Southern Europe",
+            "population":60665551,
+            "latlng":[
+                42.83333333,
+                12.83333333
+            ],
+            "demonym":"Italian",
+            "area":301336.0,
+            "gini":36.0,
+            "timezones":[
+                "UTC+01:00"
+            ],
+            "borders":[
+                "AUT",
+                "FRA",
+                "SMR",
+                "SVN",
+                "CHE",
+                "VAT"
+            ],
+            "nativeName":"Italia",
+            "numericCode":"380",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"it",
+                    "iso639_2":"ita",
+                    "name":"Italian",
+                    "nativeName":"Italiano"
+                }
+            ],
+            "translations":{
+                "de":"Italien",
+                "es":"Italia",
+                "fr":"Italie",
+                "ja":"イタリア",
+                "it":"Italia",
+                "br":"Itália",
+                "pt":"Itália"
+            },
+            "flag":"https://restcountries.eu/data/ita.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Japan",
+            "topLevelDomain":[
+                ".jp"
+            ],
+            "alpha2Code":"JP",
+            "alpha3Code":"JPN",
+            "callingCodes":[
+                "81"
+            ],
+            "capital":"Tokyo",
+            "altSpellings":[
+                "JP",
+                "Nippon",
+                "Nihon"
+            ],
+            "region":"Asia",
+            "subregion":"Eastern Asia",
+            "population":126960000,
+            "latlng":[
+                36.0,
+                138.0
+            ],
+            "demonym":"Japanese",
+            "area":377930.0,
+            "gini":38.1,
+            "timezones":[
+                "UTC+09:00"
+            ],
+            "borders":[
+
+            ],
+            "nativeName":"日本",
+            "numericCode":"392",
+            "currencies":[
+                {
+                    "code":"JPY",
+                    "name":"Japanese yen",
+                    "symbol":"¥"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"ja",
+                    "iso639_2":"jpn",
+                    "name":"Japanese",
+                    "nativeName":"日本語 (にほんご)"
+                }
+            ],
+            "translations":{
+                "de":"Japan",
+                "es":"Japón",
+                "fr":"Japon",
+                "ja":"日本",
+                "it":"Giappone",
+                "br":"Japão",
+                "pt":"Japão"
+            },
+            "flag":"https://restcountries.eu/data/jpn.svg",
+            "regionalBlocs":[
+
+            ]
+        },
+        {
+            "name":"Kenya",
+            "topLevelDomain":[
+                ".ke"
+            ],
+            "alpha2Code":"KE",
+            "alpha3Code":"KEN",
+            "callingCodes":[
+                "254"
+            ],
+            "capital":"Nairobi",
+            "altSpellings":[
+                "KE",
+                "Republic of Kenya",
+                "Jamhuri ya Kenya"
+            ],
+            "region":"Africa",
+            "subregion":"Eastern Africa",
+            "population":47251000,
+            "latlng":[
+                1.0,
+                38.0
+            ],
+            "demonym":"Kenyan",
+            "area":580367.0,
+            "gini":47.7,
+            "timezones":[
+                "UTC+03:00"
+            ],
+            "borders":[
+                "ETH",
+                "SOM",
+                "SSD",
+                "TZA",
+                "UGA"
+            ],
+            "nativeName":"Kenya",
+            "numericCode":"404",
+            "currencies":[
+                {
+                    "code":"KES",
+                    "name":"Kenyan shilling",
+                    "symbol":"Sh"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                },
+                {
+                    "iso639_1":"sw",
+                    "iso639_2":"swa",
+                    "name":"Swahili",
+                    "nativeName":"Kiswahili"
+                }
+            ],
+            "translations":{
+                "de":"Kenia",
+                "es":"Kenia",
+                "fr":"Kenya",
+                "ja":"ケニア",
+                "it":"Kenya",
+                "br":"Quênia",
+                "pt":"Quénia"
+            },
+            "flag":"https://restcountries.eu/data/ken.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Madagascar",
+            "topLevelDomain":[
+                ".mg"
+            ],
+            "alpha2Code":"MG",
+            "alpha3Code":"MDG",
+            "callingCodes":[
+                "261"
+            ],
+            "capital":"Antananarivo",
+            "altSpellings":[
+                "MG",
+                "Republic of Madagascar",
+                "Repoblikan'i Madagasikara",
+                "République de Madagascar"
+            ],
+            "region":"Africa",
+            "subregion":"Eastern Africa",
+            "population":22434363,
+            "latlng":[
+                -20.0,
+                47.0
+            ],
+            "demonym":"Malagasy",
+            "area":587041.0,
+            "gini":44.1,
+            "timezones":[
+                "UTC+03:00"
+            ],
+            "borders":[
+
+            ],
+            "nativeName":"Madagasikara",
+            "numericCode":"450",
+            "currencies":[
+                {
+                    "code":"MGA",
+                    "name":"Malagasy ariary",
+                    "symbol":"Ar"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"fr",
+                    "iso639_2":"fra",
+                    "name":"French",
+                    "nativeName":"français"
+                },
+                {
+                    "iso639_1":"mg",
+                    "iso639_2":"mlg",
+                    "name":"Malagasy",
+                    "nativeName":"fiteny malagasy"
+                }
+            ],
+            "translations":{
+                "de":"Madagaskar",
+                "es":"Madagascar",
+                "fr":"Madagascar",
+                "ja":"マダガスカル",
+                "it":"Madagascar",
+                "br":"Madagascar",
+                "pt":"Madagáscar"
+            },
+            "flag":"https://restcountries.eu/data/mdg.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Maldives",
+            "topLevelDomain":[
+                ".mv"
+            ],
+            "alpha2Code":"MV",
+            "alpha3Code":"MDV",
+            "callingCodes":[
+                "960"
+            ],
+            "capital":"Malé",
+            "altSpellings":[
+                "MV",
+                "Maldive Islands",
+                "Republic of the Maldives",
+                "Dhivehi Raajjeyge Jumhooriyya"
+            ],
+            "region":"Asia",
+            "subregion":"Southern Asia",
+            "population":344023,
+            "latlng":[
+                3.25,
+                73.0
+            ],
+            "demonym":"Maldivan",
+            "area":300.0,
+            "gini":37.4,
+            "timezones":[
+                "UTC+05:00"
+            ],
+            "borders":[
+
+            ],
+            "nativeName":"Maldives",
+            "numericCode":"462",
+            "currencies":[
+                {
+                    "code":"MVR",
+                    "name":"Maldivian rufiyaa",
+                    "symbol":".ރ"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"dv",
+                    "iso639_2":"div",
+                    "name":"Divehi",
+                    "nativeName":"ދިވެހި"
+                }
+            ],
+            "translations":{
+                "de":"Malediven",
+                "es":"Maldivas",
+                "fr":"Maldives",
+                "ja":"モルディブ",
+                "it":"Maldive",
+                "br":"Maldivas",
+                "pt":"Maldivas"
+            },
+            "flag":"https://restcountries.eu/data/mdv.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"SAARC",
+                    "name":"South Asian Association for Regional Cooperation",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Morocco",
+            "topLevelDomain":[
+                ".ma"
+            ],
+            "alpha2Code":"MA",
+            "alpha3Code":"MAR",
+            "callingCodes":[
+                "212"
+            ],
+            "capital":"Rabat",
+            "altSpellings":[
+                "MA",
+                "Kingdom of Morocco",
+                "Al-Mamlakah al-Maġribiyah"
+            ],
+            "region":"Africa",
+            "subregion":"Northern Africa",
+            "population":33337529,
+            "latlng":[
+                32.0,
+                -5.0
+            ],
+            "demonym":"Moroccan",
+            "area":446550.0,
+            "gini":40.9,
+            "timezones":[
+                "UTC"
+            ],
+            "borders":[
+                "DZA",
+                "ESH",
+                "ESP"
+            ],
+            "nativeName":"المغرب",
+            "numericCode":"504",
+            "currencies":[
+                {
+                    "code":"MAD",
+                    "name":"Moroccan dirham",
+                    "symbol":"د.م."
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"ar",
+                    "iso639_2":"ara",
+                    "name":"Arabic",
+                    "nativeName":"العربية"
+                }
+            ],
+            "translations":{
+                "de":"Marokko",
+                "es":"Marruecos",
+                "fr":"Maroc",
+                "ja":"モロッコ",
+                "it":"Marocco",
+                "br":"Marrocos",
+                "pt":"Marrocos"
+            },
+            "flag":"https://restcountries.eu/data/mar.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                },
+                {
+                    "acronym":"AL",
+                    "name":"Arab League",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "جامعة الدول العربية",
+                        "Jāmiʻat ad-Duwal al-ʻArabīyah",
+                        "League of Arab States"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Mozambique",
+            "topLevelDomain":[
+                ".mz"
+            ],
+            "alpha2Code":"MZ",
+            "alpha3Code":"MOZ",
+            "callingCodes":[
+                "258"
+            ],
+            "capital":"Maputo",
+            "altSpellings":[
+                "MZ",
+                "Republic of Mozambique",
+                "República de Moçambique"
+            ],
+            "region":"Africa",
+            "subregion":"Eastern Africa",
+            "population":26423700,
+            "latlng":[
+                -18.25,
+                35.0
+            ],
+            "demonym":"Mozambican",
+            "area":801590.0,
+            "gini":45.7,
+            "timezones":[
+                "UTC+02:00"
+            ],
+            "borders":[
+                "MWI",
+                "ZAF",
+                "SWZ",
+                "TZA",
+                "ZMB",
+                "ZWE"
+            ],
+            "nativeName":"Moçambique",
+            "numericCode":"508",
+            "currencies":[
+                {
+                    "code":"MZN",
+                    "name":"Mozambican metical",
+                    "symbol":"MT"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"pt",
+                    "iso639_2":"por",
+                    "name":"Portuguese",
+                    "nativeName":"Português"
+                }
+            ],
+            "translations":{
+                "de":"Mosambik",
+                "es":"Mozambique",
+                "fr":"Mozambique",
+                "ja":"モザンビーク",
+                "it":"Mozambico",
+                "br":"Moçambique",
+                "pt":"Moçambique"
+            },
+            "flag":"https://restcountries.eu/data/moz.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Netherlands",
+            "topLevelDomain":[
+                ".nl"
+            ],
+            "alpha2Code":"NL",
+            "alpha3Code":"NLD",
+            "callingCodes":[
+                "31"
+            ],
+            "capital":"Amsterdam",
+            "altSpellings":[
+                "NL",
+                "Holland",
+                "Nederland"
+            ],
+            "region":"Europe",
+            "subregion":"Western Europe",
+            "population":17019800,
+            "latlng":[
+                52.5,
+                5.75
+            ],
+            "demonym":"Dutch",
+            "area":41850.0,
+            "gini":30.9,
+            "timezones":[
+                "UTC-04:00",
+                "UTC+01:00"
+            ],
+            "borders":[
+                "BEL",
+                "DEU"
+            ],
+            "nativeName":"Nederland",
+            "numericCode":"528",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"nl",
+                    "iso639_2":"nld",
+                    "name":"Dutch",
+                    "nativeName":"Nederlands"
+                }
+            ],
+            "translations":{
+                "de":"Niederlande",
+                "es":"Países Bajos",
+                "fr":"Pays-Bas",
+                "ja":"オランダ",
+                "it":"Paesi Bassi",
+                "br":"Holanda",
+                "pt":"Países Baixos"
+            },
+            "flag":"https://restcountries.eu/data/nld.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Nigeria",
+            "topLevelDomain":[
+                ".ng"
+            ],
+            "alpha2Code":"NG",
+            "alpha3Code":"NGR",
+            "callingCodes":[
+                "234"
+            ],
+            "capital":"Abuja",
+            "altSpellings":[
+                "NG",
+                "Nijeriya",
+                "Naíjíríà",
+                "Federal Republic of Nigeria"
+            ],
+            "region":"Africa",
+            "subregion":"Western Africa",
+            "population":186988000,
+            "latlng":[
+                10.0,
+                8.0
+            ],
+            "demonym":"Nigerian",
+            "area":923768.0,
+            "gini":48.8,
+            "timezones":[
+                "UTC+01:00"
+            ],
+            "borders":[
+                "BEN",
+                "CMR",
+                "TCD",
+                "NER"
+            ],
+            "nativeName":"Nigeria",
+            "numericCode":"566",
+            "currencies":[
+                {
+                    "code":"NGN",
+                    "name":"Nigerian naira",
+                    "symbol":"₦"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Nigeria",
+                "es":"Nigeria",
+                "fr":"Nigéria",
+                "ja":"ナイジェリア",
+                "it":"Nigeria",
+                "br":"Nigéria",
+                "pt":"Nigéria"
+            },
+            "flag":"https://restcountries.eu/data/nga.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Portugal",
+            "topLevelDomain":[
+                ".pt"
+            ],
+            "alpha2Code":"PT",
+            "alpha3Code":"PRT",
+            "callingCodes":[
+                "351"
+            ],
+            "capital":"Lisbon",
+            "altSpellings":[
+                "PT",
+                "Portuguesa",
+                "Portuguese Republic",
+                "República Portuguesa"
+            ],
+            "region":"Europe",
+            "subregion":"Southern Europe",
+            "population":10374822,
+            "latlng":[
+                39.5,
+                -8.0
+            ],
+            "demonym":"Portuguese",
+            "area":92090.0,
+            "gini":38.5,
+            "timezones":[
+                "UTC-01:00",
+                "UTC"
+            ],
+            "borders":[
+                "ESP"
+            ],
+            "nativeName":"Portugal",
+            "numericCode":"620",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"pt",
+                    "iso639_2":"por",
+                    "name":"Portuguese",
+                    "nativeName":"Português"
+                }
+            ],
+            "translations":{
+                "de":"Portugal",
+                "es":"Portugal",
+                "fr":"Portugal",
+                "ja":"ポルトガル",
+                "it":"Portogallo",
+                "br":"Portugal",
+                "pt":"Portugal"
+            },
+            "flag":"https://restcountries.eu/data/prt.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Puerto Rico",
+            "topLevelDomain":[
+                ".pr"
+            ],
+            "alpha2Code":"PR",
+            "alpha3Code":"PRI",
+            "callingCodes":[
+                "1787",
+                "1939"
+            ],
+            "capital":"San Juan",
+            "altSpellings":[
+                "PR",
+                "Commonwealth of Puerto Rico",
+                "Estado Libre Asociado de Puerto Rico"
+            ],
+            "region":"Americas",
+            "subregion":"Caribbean",
+            "population":3474182,
+            "latlng":[
+                18.25,
+                -66.5
+            ],
+            "demonym":"Puerto Rican",
+            "area":8870.0,
+            "gini":null,
+            "timezones":[
+                "UTC-04:00"
+            ],
+            "borders":[
+
+            ],
+            "nativeName":"Puerto Rico",
+            "numericCode":"630",
+            "currencies":[
+                {
+                    "code":"USD",
+                    "name":"United States dollar",
+                    "symbol":"$"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"es",
+                    "iso639_2":"spa",
+                    "name":"Spanish",
+                    "nativeName":"Español"
+                },
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Puerto Rico",
+                "es":"Puerto Rico",
+                "fr":"Porto Rico",
+                "ja":"プエルトリコ",
+                "it":"Porto Rico",
+                "br":"Porto Rico",
+                "pt":"Porto Rico"
+            },
+            "flag":"https://restcountries.eu/data/pri.svg",
+            "regionalBlocs":[
+
+            ]
+        },
+        {
+            "name":"Qatar",
+            "topLevelDomain":[
+                ".qa"
+            ],
+            "alpha2Code":"QA",
+            "alpha3Code":"QAT",
+            "callingCodes":[
+                "974"
+            ],
+            "capital":"Doha",
+            "altSpellings":[
+                "QA",
+                "State of Qatar",
+                "Dawlat Qaṭar"
+            ],
+            "region":"Asia",
+            "subregion":"Western Asia",
+            "population":2587564,
+            "latlng":[
+                25.5,
+                51.25
+            ],
+            "demonym":"Qatari",
+            "area":11586.0,
+            "gini":41.1,
+            "timezones":[
+                "UTC+03:00"
+            ],
+            "borders":[
+                "SAU"
+            ],
+            "nativeName":"قطر",
+            "numericCode":"634",
+            "currencies":[
+                {
+                    "code":"QAR",
+                    "name":"Qatari riyal",
+                    "symbol":"ر.ق"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"ar",
+                    "iso639_2":"ara",
+                    "name":"Arabic",
+                    "nativeName":"العربية"
+                }
+            ],
+            "translations":{
+                "de":"Katar",
+                "es":"Catar",
+                "fr":"Qatar",
+                "ja":"カタール",
+                "it":"Qatar",
+                "br":"Catar",
+                "pt":"Catar"
+            },
+            "flag":"https://restcountries.eu/data/qat.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AL",
+                    "name":"Arab League",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "جامعة الدول العربية",
+                        "Jāmiʻat ad-Duwal al-ʻArabīyah",
+                        "League of Arab States"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Saudi Arabia",
+            "topLevelDomain":[
+                ".sa"
+            ],
+            "alpha2Code":"SA",
+            "alpha3Code":"SAU",
+            "callingCodes":[
+                "966"
+            ],
+            "capital":"Riyadh",
+            "altSpellings":[
+                "SA",
+                "Kingdom of Saudi Arabia",
+                "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
+            ],
+            "region":"Asia",
+            "subregion":"Western Asia",
+            "population":32248200,
+            "latlng":[
+                25.0,
+                45.0
+            ],
+            "demonym":"Saudi Arabian",
+            "area":2149690.0,
+            "gini":null,
+            "timezones":[
+                "UTC+03:00"
+            ],
+            "borders":[
+                "IRQ",
+                "JOR",
+                "KWT",
+                "OMN",
+                "QAT",
+                "ARE",
+                "YEM"
+            ],
+            "nativeName":"العربية السعودية",
+            "numericCode":"682",
+            "currencies":[
+                {
+                    "code":"SAR",
+                    "name":"Saudi riyal",
+                    "symbol":"ر.س"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"ar",
+                    "iso639_2":"ara",
+                    "name":"Arabic",
+                    "nativeName":"العربية"
+                }
+            ],
+            "translations":{
+                "de":"Saudi-Arabien",
+                "es":"Arabia Saudí",
+                "fr":"Arabie Saoudite",
+                "ja":"サウジアラビア",
+                "it":"Arabia Saudita",
+                "br":"Arábia Saudita",
+                "pt":"Arábia Saudita"
+            },
+            "flag":"https://restcountries.eu/data/sau.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AL",
+                    "name":"Arab League",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "جامعة الدول العربية",
+                        "Jāmiʻat ad-Duwal al-ʻArabīyah",
+                        "League of Arab States"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Senegal",
+            "topLevelDomain":[
+                ".sn"
+            ],
+            "alpha2Code":"SN",
+            "alpha3Code":"SEN",
+            "callingCodes":[
+                "221"
+            ],
+            "capital":"Dakar",
+            "altSpellings":[
+                "SN",
+                "Republic of Senegal",
+                "République du Sénégal"
+            ],
+            "region":"Africa",
+            "subregion":"Western Africa",
+            "population":14799859,
+            "latlng":[
+                14.0,
+                -14.0
+            ],
+            "demonym":"Senegalese",
+            "area":196722.0,
+            "gini":39.2,
+            "timezones":[
+                "UTC"
+            ],
+            "borders":[
+                "GMB",
+                "GIN",
+                "GNB",
+                "MLI",
+                "MRT"
+            ],
+            "nativeName":"Sénégal",
+            "numericCode":"686",
+            "currencies":[
+                {
+                    "code":"XOF",
+                    "name":"West African CFA franc",
+                    "symbol":"Fr"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"fr",
+                    "iso639_2":"fra",
+                    "name":"French",
+                    "nativeName":"français"
+                }
+            ],
+            "translations":{
+                "de":"Senegal",
+                "es":"Senegal",
+                "fr":"Sénégal",
+                "ja":"セネガル",
+                "it":"Senegal",
+                "br":"Senegal",
+                "pt":"Senegal"
+            },
+            "flag":"https://restcountries.eu/data/sen.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"South Africa",
+            "topLevelDomain":[
+                ".za"
+            ],
+            "alpha2Code":"ZA",
+            "alpha3Code":"ZAF",
+            "callingCodes":[
+                "27"
+            ],
+            "capital":"Pretoria",
+            "altSpellings":[
+                "ZA",
+                "RSA",
+                "Suid-Afrika",
+                "Republic of South Africa"
+            ],
+            "region":"Africa",
+            "subregion":"Southern Africa",
+            "population":55653654,
+            "latlng":[
+                -29.0,
+                24.0
+            ],
+            "demonym":"South African",
+            "area":1221037.0,
+            "gini":63.1,
+            "timezones":[
+                "UTC+02:00"
+            ],
+            "borders":[
+                "BWA",
+                "LSO",
+                "MOZ",
+                "NAM",
+                "SWZ",
+                "ZWE"
+            ],
+            "nativeName":"South Africa",
+            "numericCode":"710",
+            "currencies":[
+                {
+                    "code":"ZAR",
+                    "name":"South African rand",
+                    "symbol":"R"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"af",
+                    "iso639_2":"afr",
+                    "name":"Afrikaans",
+                    "nativeName":"Afrikaans"
+                },
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                },
+                {
+                    "iso639_1":"nr",
+                    "iso639_2":"nbl",
+                    "name":"Southern Ndebele",
+                    "nativeName":"isiNdebele"
+                },
+                {
+                    "iso639_1":"st",
+                    "iso639_2":"sot",
+                    "name":"Southern Sotho",
+                    "nativeName":"Sesotho"
+                },
+                {
+                    "iso639_1":"ss",
+                    "iso639_2":"ssw",
+                    "name":"Swati",
+                    "nativeName":"SiSwati"
+                },
+                {
+                    "iso639_1":"tn",
+                    "iso639_2":"tsn",
+                    "name":"Tswana",
+                    "nativeName":"Setswana"
+                },
+                {
+                    "iso639_1":"ts",
+                    "iso639_2":"tso",
+                    "name":"Tsonga",
+                    "nativeName":"Xitsonga"
+                },
+                {
+                    "iso639_1":"ve",
+                    "iso639_2":"ven",
+                    "name":"Venda",
+                    "nativeName":"Tshivenḓa"
+                },
+                {
+                    "iso639_1":"xh",
+                    "iso639_2":"xho",
+                    "name":"Xhosa",
+                    "nativeName":"isiXhosa"
+                },
+                {
+                    "iso639_1":"zu",
+                    "iso639_2":"zul",
+                    "name":"Zulu",
+                    "nativeName":"isiZulu"
+                }
+            ],
+            "translations":{
+                "de":"Republik Südafrika",
+                "es":"República de Sudáfrica",
+                "fr":"Afrique du Sud",
+                "ja":"南アフリカ",
+                "it":"Sud Africa",
+                "br":"República Sul-Africana",
+                "pt":"República Sul-Africana"
+            },
+            "flag":"https://restcountries.eu/data/zaf.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Spain",
+            "topLevelDomain":[
+                ".es"
+            ],
+            "alpha2Code":"ES",
+            "alpha3Code":"ESP",
+            "callingCodes":[
+                "34"
+            ],
+            "capital":"Madrid",
+            "altSpellings":[
+                "ES",
+                "Kingdom of Spain",
+                "Reino de España"
+            ],
+            "region":"Europe",
+            "subregion":"Southern Europe",
+            "population":46438422,
+            "latlng":[
+                40.0,
+                -4.0
+            ],
+            "demonym":"Spanish",
+            "area":505992.0,
+            "gini":34.7,
+            "timezones":[
+                "UTC",
+                "UTC+01:00"
+            ],
+            "borders":[
+                "AND",
+                "FRA",
+                "GIB",
+                "PRT",
+                "MAR"
+            ],
+            "nativeName":"España",
+            "numericCode":"724",
+            "currencies":[
+                {
+                    "code":"EUR",
+                    "name":"Euro",
+                    "symbol":"€"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"es",
+                    "iso639_2":"spa",
+                    "name":"Spanish",
+                    "nativeName":"Español"
+                }
+            ],
+            "translations":{
+                "de":"Spanien",
+                "es":"España",
+                "fr":"Espagne",
+                "ja":"スペイン",
+                "it":"Spagna",
+                "br":"Espanha",
+                "pt":"Espanha"
+            },
+            "flag":"https://restcountries.eu/data/esp.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Tanzania, United Republic of",
+            "topLevelDomain":[
+                ".tz"
+            ],
+            "alpha2Code":"TZ",
+            "alpha3Code":"TZA",
+            "callingCodes":[
+                "255"
+            ],
+            "capital":"Dodoma",
+            "altSpellings":[
+                "TZ",
+                "United Republic of Tanzania",
+                "Jamhuri ya Muungano wa Tanzania"
+            ],
+            "region":"Africa",
+            "subregion":"Eastern Africa",
+            "population":55155000,
+            "latlng":[
+                -6.0,
+                35.0
+            ],
+            "demonym":"Tanzanian",
+            "area":945087.0,
+            "gini":37.6,
+            "timezones":[
+                "UTC+03:00"
+            ],
+            "borders":[
+                "BDI",
+                "COD",
+                "KEN",
+                "MWI",
+                "MOZ",
+                "RWA",
+                "UGA",
+                "ZMB"
+            ],
+            "nativeName":"Tanzania",
+            "numericCode":"834",
+            "currencies":[
+                {
+                    "code":"TZS",
+                    "name":"Tanzanian shilling",
+                    "symbol":"Sh"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"sw",
+                    "iso639_2":"swa",
+                    "name":"Swahili",
+                    "nativeName":"Kiswahili"
+                },
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Tansania",
+                "es":"Tanzania",
+                "fr":"Tanzanie",
+                "ja":"タンザニア",
+                "it":"Tanzania",
+                "br":"Tanzânia",
+                "pt":"Tanzânia"
+            },
+            "flag":"https://restcountries.eu/data/tza.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Uganda",
+            "topLevelDomain":[
+                ".ug"
+            ],
+            "alpha2Code":"UG",
+            "alpha3Code":"UGA",
+            "callingCodes":[
+                "256"
+            ],
+            "capital":"Kampala",
+            "altSpellings":[
+                "UG",
+                "Republic of Uganda",
+                "Jamhuri ya Uganda"
+            ],
+            "region":"Africa",
+            "subregion":"Eastern Africa",
+            "population":33860700,
+            "latlng":[
+                1.0,
+                32.0
+            ],
+            "demonym":"Ugandan",
+            "area":241550.0,
+            "gini":44.3,
+            "timezones":[
+                "UTC+03:00"
+            ],
+            "borders":[
+                "COD",
+                "KEN",
+                "RWA",
+                "SSD",
+                "TZA"
+            ],
+            "nativeName":"Uganda",
+            "numericCode":"800",
+            "currencies":[
+                {
+                    "code":"UGX",
+                    "name":"Ugandan shilling",
+                    "symbol":"Sh"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                },
+                {
+                    "iso639_1":"sw",
+                    "iso639_2":"swa",
+                    "name":"Swahili",
+                    "nativeName":"Kiswahili"
+                }
+            ],
+            "translations":{
+                "de":"Uganda",
+                "es":"Uganda",
+                "fr":"Uganda",
+                "ja":"ウガンダ",
+                "it":"Uganda",
+                "br":"Uganda",
+                "pt":"Uganda"
+            },
+            "flag":"https://restcountries.eu/data/uga.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AU",
+                    "name":"African Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "الاتحاد الأفريقي",
+                        "Union africaine",
+                        "União Africana",
+                        "Unión Africana",
+                        "Umoja wa Afrika"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"United Arab Emirates",
+            "topLevelDomain":[
+                ".ae"
+            ],
+            "alpha2Code":"AE",
+            "alpha3Code":"ARE",
+            "callingCodes":[
+                "971"
+            ],
+            "capital":"Abu Dhabi",
+            "altSpellings":[
+                "AE",
+                "UAE"
+            ],
+            "region":"Asia",
+            "subregion":"Western Asia",
+            "population":9856000,
+            "latlng":[
+                24.0,
+                54.0
+            ],
+            "demonym":"Emirati",
+            "area":83600.0,
+            "gini":null,
+            "timezones":[
+                "UTC+04"
+            ],
+            "borders":[
+                "OMN",
+                "SAU"
+            ],
+            "nativeName":"دولة الإمارات العربية المتحدة",
+            "numericCode":"784",
+            "currencies":[
+                {
+                    "code":"AED",
+                    "name":"United Arab Emirates dirham",
+                    "symbol":"د.إ"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"ar",
+                    "iso639_2":"ara",
+                    "name":"Arabic",
+                    "nativeName":"العربية"
+                }
+            ],
+            "translations":{
+                "de":"Vereinigte Arabische Emirate",
+                "es":"Emiratos Árabes Unidos",
+                "fr":"Émirats arabes unis",
+                "ja":"アラブ首長国連邦",
+                "it":"Emirati Arabi Uniti",
+                "br":"Emirados árabes Unidos",
+                "pt":"Emirados árabes Unidos"
+            },
+            "flag":"https://restcountries.eu/data/are.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"AL",
+                    "name":"Arab League",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "جامعة الدول العربية",
+                        "Jāmiʻat ad-Duwal al-ʻArabīyah",
+                        "League of Arab States"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"United Kingdom of Great Britain and Northern Ireland",
+            "topLevelDomain":[
+                ".uk"
+            ],
+            "alpha2Code":"GB",
+            "alpha3Code":"GBR",
+            "callingCodes":[
+                "44"
+            ],
+            "capital":"London",
+            "altSpellings":[
+                "GB",
+                "UK",
+                "Great Britain"
+            ],
+            "region":"Europe",
+            "subregion":"Northern Europe",
+            "population":65110000,
+            "latlng":[
+                54.0,
+                -2.0
+            ],
+            "demonym":"British",
+            "area":242900.0,
+            "gini":34.0,
+            "timezones":[
+                "UTC-08:00",
+                "UTC-05:00",
+                "UTC-04:00",
+                "UTC-03:00",
+                "UTC-02:00",
+                "UTC",
+                "UTC+01:00",
+                "UTC+02:00",
+                "UTC+06:00"
+            ],
+            "borders":[
+                "IRL"
+            ],
+            "nativeName":"United Kingdom",
+            "numericCode":"826",
+            "currencies":[
+                {
+                    "code":"GBP",
+                    "name":"British pound",
+                    "symbol":"£"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Vereinigtes Königreich",
+                "es":"Reino Unido",
+                "fr":"Royaume-Uni",
+                "ja":"イギリス",
+                "it":"Regno Unito",
+                "br":"Reino Unido",
+                "pt":"Reino Unido"
+            },
+            "flag":"https://restcountries.eu/data/gbr.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"EU",
+                    "name":"European Union",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"United States of America",
+            "topLevelDomain":[
+                ".us"
+            ],
+            "alpha2Code":"US",
+            "alpha3Code":"USA",
+            "callingCodes":[
+                "1"
+            ],
+            "capital":"Washington, D.C.",
+            "altSpellings":[
+                "US",
+                "USA",
+                "United States of America"
+            ],
+            "region":"Americas",
+            "subregion":"Northern America",
+            "population":323947000,
+            "latlng":[
+                38.0,
+                -97.0
+            ],
+            "demonym":"American",
+            "area":9629091.0,
+            "gini":48.0,
+            "timezones":[
+                "UTC-12:00",
+                "UTC-11:00",
+                "UTC-10:00",
+                "UTC-09:00",
+                "UTC-08:00",
+                "UTC-07:00",
+                "UTC-06:00",
+                "UTC-05:00",
+                "UTC-04:00",
+                "UTC+10:00",
+                "UTC+12:00"
+            ],
+            "borders":[
+                "CAN",
+                "MEX"
+            ],
+            "nativeName":"United States",
+            "numericCode":"840",
+            "currencies":[
+                {
+                    "code":"USD",
+                    "name":"United States dollar",
+                    "symbol":"$"
+                }
+            ],
+            "languages":[
+                {
+                    "iso639_1":"en",
+                    "iso639_2":"eng",
+                    "name":"English",
+                    "nativeName":"English"
+                }
+            ],
+            "translations":{
+                "de":"Vereinigte Staaten von Amerika",
+                "es":"Estados Unidos",
+                "fr":"États-Unis",
+                "ja":"アメリカ合衆国",
+                "it":"Stati Uniti D'America",
+                "br":"Estados Unidos",
+                "pt":"Estados Unidos"
+            },
+            "flag":"https://restcountries.eu/data/usa.svg",
+            "regionalBlocs":[
+                {
+                    "acronym":"NAFTA",
+                    "name":"North American Free Trade Agreement",
+                    "otherAcronyms":[
+
+                    ],
+                    "otherNames":[
+                        "Tratado de Libre Comercio de América del Norte",
+                        "Accord de Libre-échange Nord-Américain"
+                    ]
+                }
+            ]
+        }
+    ],
+    "cities": [
+
+    ]
+        
+}

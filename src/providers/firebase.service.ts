@@ -6,6 +6,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class FirebaseService {
   countries: FirebaseListObservable<any[]>;
+  cities: FirebaseListObservable<any[]>;
 
   constructor(private firebaseDb: AngularFireDatabase) {
     console.log('Hello FirebaseServiceProvider Provider');
@@ -16,7 +17,7 @@ export class FirebaseService {
   }
 
   getCities(): FirebaseListObservable<any[]> {
-    return this.countries = this.firebaseDb.list('/countries');
+    return this.cities = this.firebaseDb.list('/cities');
  }
 
 }

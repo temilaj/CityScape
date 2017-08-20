@@ -3336,7 +3336,22 @@
         }
     ],
     "cities": [
-
+        {
+            "name":"Lagos",
+            "country":"Nigeria",
+            "latlng":[
+                -34.0,
+                -64.0
+            ]
+        },
+        {
+            "name":"Abuja",
+            "country":"Nigeria",
+            "latlng":[
+                -34.0,
+                -64.0
+            ]
+        }
     ]
         
 }

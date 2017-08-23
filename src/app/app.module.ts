@@ -17,6 +17,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { environment } from "../environments/environment";
 import { FirebaseService } from "../providers/firebase.service";
+import { CitiesPage } from "../pages/cities/cities";
 
 const { apiKey, authDomain, databaseURL, storageBucket, messagingSenderId } = environment;
 
@@ -35,6 +36,7 @@ export const firebaseConfig = {
     ContactPage,
     HomePage,
     TabsPage,
+    CitiesPage
   ],
   imports: [
     BrowserModule,
@@ -49,7 +51,8 @@ export const firebaseConfig = {
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    CitiesPage
   ],
   providers: [
     StatusBar,

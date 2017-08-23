@@ -16,8 +16,23 @@ export class FirebaseService {
     return this.countries = this.firebaseDb.list('/countries');
   }
 
-  getCities(): FirebaseListObservable<any[]> {
-    return this.cities = this.firebaseDb.list('/cities');
+  getCities(countryName:string = null): FirebaseListObservable<any[]> {
+    if (countryName != null) {
+      console.log(countryName);
+      this.cities = this.firebaseDb.list('/cities', {
+          query:{
+              orderByChild: 'country',
+              equalTo: countryName
+          }
+      });
+    } 
+    // else {
+    //     this.cities = this._af.database.list('/cities') as
+    //         FirebaseListObservable<Business[]>;
+    // }
+    console.log(this.cities);
+    
+    return this.cities;
  }
 
 }

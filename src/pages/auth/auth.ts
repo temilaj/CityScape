@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AngularFireAuth } from "angularfire2/auth";
 import * as firebase from 'firebase/app';
+import { HomePage } from "../home/home";
 /**
  * Generated class for the AuthPage page.
  *
@@ -15,9 +16,18 @@ import * as firebase from 'firebase/app';
   templateUrl: 'auth.html',
 })
 export class AuthPage {
-
+  displayName;  
+  
   constructor(public navCtrl: NavController,
-    private afAuth: AngularFireAuth) { }
+    private afAuth: AngularFireAuth) { 
+      afAuth.authState.subscribe(user => {
+        if (!user) {
+          this.displayName = null;        
+          return;
+        }
+        this.displayName = user.displayName;      
+      });
+    }
 
 
   ionViewDidLoad() {
@@ -27,7 +37,11 @@ export class AuthPage {
   signInWithFacebook() {
     this.afAuth.auth
       .signInWithPopup(new firebase.auth.FacebookAuthProvider())
-      .then(res => console.log(res));
+      .then(res => {
+        console.log(res);
+        this.navCtrl.push(HomePage);
+      });
+
   }
 
   signOut() {

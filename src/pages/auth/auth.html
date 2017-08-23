@@ -14,5 +14,9 @@
 
 
 <ion-content padding>
-
-</ion-content>
+  
+    <h1>Hello {{displayName}}</h1>  
+    
+    <button ion-button outline (click)="signInWithFacebook()">Login</button>  
+    <button ion-button outline (click)="signOut()">Logout</button>
+  </ion-content>

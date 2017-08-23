@@ -14,6 +14,7 @@ import { AngularFireAuth } from "angularfire2/auth";
 export class HomePage {
 
   countries: FirebaseListObservable<any[]>;
+  user;  
   displayName;  
 
   constructor(public navCtrl: NavController, private firebaseService:FirebaseService, private afAuth: AngularFireAuth) {
@@ -22,7 +23,10 @@ export class HomePage {
         this.displayName = null;        
         return;
       }
-      this.displayName = user.displayName;      
+      this.displayName = user.displayName;
+      this.user = user;
+      console.log(user);
+
     });
   }
 

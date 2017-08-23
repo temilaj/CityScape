@@ -4,6 +4,7 @@ import { NavController } from 'ionic-angular';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { FirebaseService } from "../../providers/firebase.service";
 import { CitiesPage } from "../cities/cities";
+import { AngularFireAuth } from "angularfire2/auth";
 
 @Component({
   selector: 'page-home',
@@ -13,9 +14,21 @@ import { CitiesPage } from "../cities/cities";
 export class HomePage {
 
   countries: FirebaseListObservable<any[]>;
-  
-  constructor(public navCtrl: NavController, private firebaseService:FirebaseService) {}
+  displayName;  
 
+  constructor(public navCtrl: NavController, private firebaseService:FirebaseService, private afAuth: AngularFireAuth) {
+    afAuth.authState.subscribe(user => {
+      if (!user) {
+        this.displayName = null;        
+        return;
+      }
+      this.displayName = user.displayName;      
+    });
+  }
+
+  signOut() {
+    this.afAuth.auth.signOut();
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad CitiesPage');
     this.countries = this.firebaseService.getCountries();

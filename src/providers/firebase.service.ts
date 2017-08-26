@@ -30,9 +30,24 @@ export class FirebaseService {
     //     this.cities = this._af.database.list('/cities') as
     //         FirebaseListObservable<Business[]>;
     // }
-    console.log(this.cities);
-    
     return this.cities;
  }
+
+ getPlaces(cityName:string = null): FirebaseListObservable<any[]> {
+  if (cityName != null) {
+    console.log(cityName);
+    this.cities = this.firebaseDb.list('/places', {
+        query:{
+            orderByChild: 'city',
+            equalTo: cityName
+        }
+    });
+  } 
+  // else {
+  //     this.cities = this._af.database.list('/cities') as
+  //         FirebaseListObservable<Business[]>;
+  // }
+  return this.cities;
+}
 
 }

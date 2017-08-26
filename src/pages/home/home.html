@@ -5,29 +5,29 @@
 </ion-header>
 
 <ion-content padding>
-    <ion-list>
-      <button ion-item *ngFor="let country of countries | async" (click)="countrySelected(country)">
-        <ion-avatar item-start>
-          <img src="{{ country.flag}}">
-        </ion-avatar>
-        <h2>
-          {{ country.name }}
-        </h2>
-        <p>{{ country.subregion }}</p>
-        <ion-note item-end>{{ country.alpha3Code}}</ion-note>
-      </button>
-    </ion-list>
-    <ion-fab right bottom *ngIf="user" >
-      <button ion-fab color="light">
-        <ion-avatar item-start>
-          <img src="{{ user.photoURL}}" class="fab-image">
-        </ion-avatar>
-      </button>
-      <ion-fab-list side="left">
-        <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
-        <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
-        <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
-        <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
-      </ion-fab-list>
-    </ion-fab>
+  <ion-list>
+    <button ion-item *ngFor="let country of countries | async" (click)="countrySelected(country)">
+      <ion-avatar item-start>
+        <img src="{{ country.flag}}">
+      </ion-avatar>
+      <h2>
+        {{ country.name }}
+      </h2>
+      <p>{{ country.subregion }}</p>
+      <ion-note item-end>{{ country.alpha3Code}}</ion-note>
+    </button>
+  </ion-list>
+  <ion-fab right bottom *ngIf="user" >
+    <button ion-fab color="light">
+      <ion-avatar item-start>
+        <img src="{{ user.photoURL}}" class="fab-image">
+      </ion-avatar>
+    </button>
+    <ion-fab-list side="left">
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
 </ion-content>

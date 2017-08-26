@@ -20,6 +20,8 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from "../environments/environment";
 import { FirebaseService } from "../providers/firebase.service";
 import { Facebook } from '@ionic-native/facebook';
+import { PlacesPage } from "../pages/places/places";
+import { AddSpotPage } from "../pages/modals/addSpot";
 
 const { apiKey, authDomain, databaseURL, storageBucket, messagingSenderId } = environment;
 
@@ -40,7 +42,9 @@ export const firebaseConfig = {
     HomePage,
     TabsPage,
     CitiesPage,
-    AuthPage
+    AuthPage,
+    PlacesPage,
+    AddSpotPage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +61,9 @@ export const firebaseConfig = {
     HomePage,
     TabsPage,
     CitiesPage,
-    AuthPage
+    AuthPage,
+    PlacesPage,
+    AddSpotPage
   ],
   providers: [
     StatusBar,

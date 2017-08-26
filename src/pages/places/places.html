@@ -1,0 +1,33 @@
+<!--
+  Generated template for the CitiesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ city.name }} Hotspots</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list *ngIf="places" >
+    <button ion-item *ngFor="let city of places | async" (click)="openMenu(city)">
+      <ion-avatar item-start>
+        <img src="{{ city.flag }}">
+      </ion-avatar>
+      <h2>
+        {{ city.name }}
+      </h2>
+      <p>{{ city.subregion }}</p>
+      <ion-note item-end>{{ city.alpha3Code }}</ion-note>
+    </button>
+  </ion-list>
+  <ion-fab right bottom>
+      <button ion-fab color="dark" (click)="addSpotModal()"><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
+</ion-content>
+

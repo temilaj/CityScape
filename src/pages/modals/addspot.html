@@ -21,13 +21,13 @@
       <ion-input type="text" placeholder="location" [(ngModel)]="location" name="location"></ion-input>
     </ion-item> -->
     <form (ngSubmit)="addHotspot()">
-        <ion-item>
-          <ion-input type="text" placeholder="name" [(ngModel)]="model.name" name="name"></ion-input>
-        </ion-item>
-        <ion-item>
-          <ion-textarea [(ngModel)]="model.location" placeholder="location" name="location"></ion-textarea>
-        </ion-item>
-        <button ion-button type="submit" block>Add Spot</button>
-      </form>
+      <ion-item>
+        <ion-input type="text" placeholder="name" [(ngModel)]="model.name" name="name"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-textarea [(ngModel)]="model.location" placeholder="location" name="location"></ion-textarea>
+      </ion-item>
+      <button ion-button type="submit" block>Add Spot</button>
+    </form>
   </ion-list>
 </ion-content>

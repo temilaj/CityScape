@@ -20,4 +20,8 @@ export class ProfilePage {
     });
   }
 
+  signOut() {
+    this.afAuth.auth.signOut();
+  }
+
 }

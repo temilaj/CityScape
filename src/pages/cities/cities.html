@@ -13,8 +13,8 @@
 </ion-header>
 
 
-<ion-content padding>
-  <ion-list *ngIf="cities" >
+<ion-content class="card-background-page">
+  <!-- <ion-list *ngIf="cities" >
     <button ion-item *ngFor="let city of cities | async" (click)="citySelected(city)">
       <ion-avatar item-start>
         <img src="{{ city.flag }}">
@@ -25,6 +25,12 @@
       <p>{{ city.subregion }}</p>
       <ion-note item-end>{{ city.alpha3Code }}</ion-note>
     </button>
-  </ion-list>
+  </ion-list> -->
+
+  <ion-card *ngFor="let city of cities | async" (click)="citySelected(city)">
+    <img src="assets/img/card-amsterdam.png"/>
+    <div class="card-title">{{ city.name }}</div>
+    <div class="card-subtitle">{{ city.country }}</div>
+  </ion-card>
 </ion-content>
 

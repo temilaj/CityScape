@@ -19,6 +19,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { environment } from "../environments/environment";
 import { FirebaseService } from "../providers/firebase.service";
+import { Facebook } from '@ionic-native/facebook';
 
 const { apiKey, authDomain, databaseURL, storageBucket, messagingSenderId } = environment;
 
@@ -28,6 +29,7 @@ export const firebaseConfig = {
   databaseURL,
   storageBucket,
   messagingSenderId,
+  Facebook
 };
 
 @NgModule({

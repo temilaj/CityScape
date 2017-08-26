@@ -1,6 +1,6 @@
 {
   "name": "CityScape",
-  "app_id": "",
+  "app_id": "bf3ae7e1",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

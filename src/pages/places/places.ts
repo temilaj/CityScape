@@ -24,18 +24,19 @@ export class PlacesPage {
 
   ionViewDidLoad() {
     this.places = this.firebaseService.getPlaces(this.city.name);
-    // this.cities.map
-    console.log(this.places);
   }
   
-  addSpotModal($event, repo) {
+  addSpotModal($event) {
     let modal = this.modalCtrl.create
-    (AddSpotPage);
+    (AddSpotPage, {
+      city: this.city
+    });
     modal.present();
   }
 
   openMenu(place) {
     this.selectedPlace = place;
+    console.log(this.selectedPlace);
     let actionSheet = this.actionSheetCtrl.create({
       title: place.name,
       cssClass: 'action-sheets-basic-page',
@@ -45,7 +46,7 @@ export class PlacesPage {
           role: 'destructive',
           icon: !this.platform.is('ios') ? 'trash' : null,
           handler: () => {
-            console.log('Delete clicked');
+            this.firebaseService.deleteSpot(this.selectedPlace.$key);
           }
         },
         {

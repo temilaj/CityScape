@@ -15,15 +15,15 @@
 
 <ion-content padding>
   <ion-list *ngIf="places" >
-    <button ion-item *ngFor="let city of places | async" (click)="openMenu(city)">
+    <button ion-item *ngFor="let place of places | async" (click)="openMenu(place)">
       <ion-avatar item-start>
-        <img src="{{ city.flag }}">
+        <img src="{{ place.flag }}">
       </ion-avatar>
       <h2>
-        {{ city.name }}
+        {{ place.name }}
       </h2>
-      <p>{{ city.subregion }}</p>
-      <ion-note item-end>{{ city.alpha3Code }}</ion-note>
+      <p>{{ place.subregion }}</p>
+      <ion-note item-end>{{ place.alpha3Code }}</ion-note>
     </button>
   </ion-list>
   <ion-fab right bottom>

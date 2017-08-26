@@ -14,6 +14,7 @@ import { AuthPage } from "../pages/auth/auth";
 })
 export class MyApp {
   // rootPage:any = TabsPage;
+  // rootPage:any;
   rootPage:any;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, private auth: AngularFireAuth) {
@@ -28,9 +29,10 @@ export class MyApp {
           this.rootPage = TabsPage;
           unsubscribe();
         }
-        this.rootPage = TabsPage;
+        // this.rootPage = TabsPage;
         
       });
+      // this.rootPage = AuthPage;
       statusBar.styleDefault();
       splashScreen.hide();
     });

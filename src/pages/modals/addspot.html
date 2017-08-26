@@ -12,21 +12,22 @@
   </ion-toolbar>
 </ion-header>
 
-<!-- <ion-content>
-    <ion-list>
+<ion-content>
+  <ion-list>
+    <!-- <ion-item>
+      <ion-input type="text" placeholder="name" [(ngModel)]="name" name="name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="location" [(ngModel)]="location" name="location"></ion-input>
+    </ion-item> -->
+    <form (ngSubmit)="addHotspot()">
         <ion-item>
-          <ion-avatar item-start>
-            <img src="{{character.image}}">
-          </ion-avatar>
-          <h2>{{character.name}}</h2>
-          <p>{{character.quote}}</p>
+          <ion-input type="text" placeholder="name" [(ngModel)]="model.name" name="name"></ion-input>
         </ion-item>
-  
-        <ion-item *ngFor="let item of character['items']">
-          {{item.title}}
-          <ion-note item-end>
-            {{item.note}}
-          </ion-note>
+        <ion-item>
+          <ion-textarea [(ngModel)]="model.location" placeholder="location" name="location"></ion-textarea>
         </ion-item>
-    </ion-list>
-  </ion-content> -->
+        <button ion-button type="submit" block>Add Spot</button>
+      </form>
+  </ion-list>
+</ion-content>

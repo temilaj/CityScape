@@ -44,8 +44,8 @@ export class AuthPage {
         this.displayName = null;        
         return;
       }
-      this.navCtrl.push(HomePage);
       this.displayName = user.displayName;      
+      this.navCtrl.push(HomePage);
     });
   }
 

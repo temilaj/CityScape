@@ -5,6 +5,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
 import { FirebaseService } from "../../providers/firebase.service";
 import { CitiesPage } from "../cities/cities";
 import { AngularFireAuth } from "angularfire2/auth";
+import { AuthPage } from "../auth/auth";
 
 @Component({
   selector: 'page-home',
@@ -21,8 +22,8 @@ export class HomePage {
     private afAuth: AngularFireAuth, public loadingCtrl: LoadingController) {
     afAuth.authState.subscribe(user => {
       if (!user) {
-        this.displayName = null;        
-        return;
+        this.displayName = null;
+        this.navCtrl.push(AuthPage);
       }
       this.displayName = user.displayName;
       this.user = user;
@@ -30,6 +31,17 @@ export class HomePage {
 
     });
   }
+
+  // ionViewCanEnter() {
+  //   this.afAuth.authState.subscribe(user => {
+  //     if (!user) {
+  //       this.displayName = null;        
+  //     }
+  //     this.user = user;
+  //     this.displayName = user.displayName;      
+  //   });
+  // }
+
   ionViewDidLoad() {
     this.countries = this.firebaseService.getCountries();
     let loader = this.loadingCtrl.create({

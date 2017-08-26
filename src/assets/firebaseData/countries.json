@@ -3352,6 +3352,24 @@
                 -64.0
             ]
         }
+    ],
+    "places": [
+        {
+            "name":"Andela",
+            "city":"Lagos",
+            "latlng":[
+                -34.0,
+                -64.0
+            ]
+        },
+        {
+            "name":"Ventures Park",
+            "city":"Abuja",
+            "latlng":[
+                -34.0,
+                -64.0
+            ]
+        }
     ]
         
 }

@@ -7,6 +7,7 @@ import 'rxjs/add/operator/map';
 export class FirebaseService {
   countries: FirebaseListObservable<any[]>;
   cities: FirebaseListObservable<any[]>;
+  places: FirebaseListObservable<any[]>;
 
   constructor(private firebaseDb: AngularFireDatabase) {
     console.log('Hello FirebaseServiceProvider Provider');
@@ -33,21 +34,32 @@ export class FirebaseService {
     return this.cities;
  }
 
- getPlaces(cityName:string = null): FirebaseListObservable<any[]> {
-  if (cityName != null) {
-    console.log(cityName);
-    this.cities = this.firebaseDb.list('/places', {
-        query:{
-            orderByChild: 'city',
-            equalTo: cityName
-        }
-    });
-  } 
-  // else {
-  //     this.cities = this._af.database.list('/cities') as
-  //         FirebaseListObservable<Business[]>;
-  // }
-  return this.cities;
-}
+  getPlaces(cityName:string = null): FirebaseListObservable<any[]> {
+    if (cityName != null) {
+      console.log(cityName);
+      this.places = this.firebaseDb.list('/places', {
+          query:{
+              orderByChild: 'city',
+              equalTo: cityName
+          }
+      });
+    } 
+    return this.places;
+  }
+  
+  addSpot(spot) {
+    console.log(spot);
+    this.firebaseDb.list('/places').push(spot);
+  }
+
+  deleteSpot(id) {
+    console.log('removing spot '+id)
+    this.firebaseDb.list('/places').remove(id);
+  }
+
+  updateSpot(id, spot) {
+    console.log('updating spot '+id)
+    this.firebaseDb.list('/places').update(id, spot);
+  }
 
 }

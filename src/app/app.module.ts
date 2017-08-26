@@ -69,7 +69,8 @@ export const firebaseConfig = {
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    FirebaseService
+    FirebaseService,
+    Facebook
   ]
 })
 export class AppModule {}

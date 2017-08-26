@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, LoadingController } from 'ionic-angular';
 
 import { FirebaseListObservable } from 'angularfire2/database';
 import { FirebaseService } from "../../providers/firebase.service";
@@ -17,7 +17,8 @@ export class HomePage {
   user;  
   displayName;  
 
-  constructor(public navCtrl: NavController, private firebaseService:FirebaseService, private afAuth: AngularFireAuth) {
+  constructor(public navCtrl: NavController, private firebaseService:FirebaseService, 
+    private afAuth: AngularFireAuth, public loadingCtrl: LoadingController) {
     afAuth.authState.subscribe(user => {
       if (!user) {
         this.displayName = null;        
@@ -29,16 +30,29 @@ export class HomePage {
 
     });
   }
+  ionViewDidLoad() {
+    this.countries = this.firebaseService.getCountries();
+    let loader = this.loadingCtrl.create({
+      content: "loading countires",
+    });
+    
+    loader.present().then(() => {
+      this.countries = this.firebaseService.getCountries();
+      loader.dismiss();
+    });
+  }
+  
+  stopLoading() {
+    let loader = this.loadingCtrl.create({
+      content: "loading countires",
+    });
+    loader.dismiss();
+  }
 
   signOut() {
     this.afAuth.auth.signOut();
   }
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad CitiesPage');
-    this.countries = this.firebaseService.getCountries();
-  }
   countrySelected(country) {
-    console.log(country);
     this.navCtrl.push(CitiesPage,{
       country
     })

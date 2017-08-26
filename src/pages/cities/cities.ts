@@ -26,6 +26,7 @@ export class CitiesPage {
 
   ionViewDidLoad() {
     this.cities = this.firebaseService.getCities(this.country.name);
+    // this.cities.map
     console.log(this.cities);
   }
 

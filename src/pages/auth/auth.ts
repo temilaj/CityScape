@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, ToastController } from 'ionic-angular';
+import { NavController, ToastController } from 'ionic-angular';
 import { AngularFireAuth } from "angularfire2/auth";
 import * as firebase from 'firebase/app';
 import { HomePage } from "../home/home";

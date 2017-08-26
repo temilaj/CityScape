@@ -21,13 +21,13 @@ export class MyApp {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       const unsubscribe = firebase.auth().onAuthStateChanged((user) => {
-        // if (!user) {
-        //   this.rootPage = AuthPage;
-        //   unsubscribe();
-        // } else { 
-        //   this.rootPage = TabsPage;
-        //   unsubscribe();
-        // }
+        if (!user) {
+          this.rootPage = AuthPage;
+          unsubscribe();
+        } else { 
+          this.rootPage = TabsPage;
+          unsubscribe();
+        }
         this.rootPage = TabsPage;
         
       });

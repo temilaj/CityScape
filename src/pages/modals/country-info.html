@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Country Info
+      </ion-title>
+      <ion-buttons start>
+        <button ion-button (click)="dismiss()">
+          <span ion-text color="primary" showWhen="ios">Cancel</span>
+          <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="{{ country.flag }}">
+        </ion-avatar>
+        <h2>{{ country.name }}</h2>
+        <p>{{ country.Brussels }}</p>
+      </ion-item>
+    </ion-list>
+</ion-content>

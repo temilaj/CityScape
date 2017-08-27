@@ -22,6 +22,7 @@ import { FirebaseService } from "../providers/firebase.service";
 import { Facebook } from '@ionic-native/facebook';
 import { PlacesPage } from "../pages/places/places";
 import { AddSpotPage } from "../pages/modals/addSpot";
+import { CountryInfoPage } from "../pages/modals/country-info";
 
 const { apiKey, authDomain, databaseURL, storageBucket, messagingSenderId } = environment;
 
@@ -44,7 +45,8 @@ export const firebaseConfig = {
     CitiesPage,
     AuthPage,
     PlacesPage,
-    AddSpotPage
+    AddSpotPage,
+    CountryInfoPage
   ],
   imports: [
     BrowserModule,
@@ -63,7 +65,8 @@ export const firebaseConfig = {
     CitiesPage,
     AuthPage,
     PlacesPage,
-    AddSpotPage
+    AddSpotPage,
+    CountryInfoPage
   ],
   providers: [
     StatusBar,

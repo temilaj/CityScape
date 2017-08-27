@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, LoadingController } from 'ionic-angular';
+import { NavController, LoadingController, ModalController } from 'ionic-angular';
 
 import { FirebaseListObservable } from 'angularfire2/database';
 import { FirebaseService } from "../../providers/firebase.service";
 import { CitiesPage } from "../cities/cities";
 import { AngularFireAuth } from "angularfire2/auth";
 import { AuthPage } from "../auth/auth";
+import { CountryInfoPage } from "../modals/country-info";
 
 @Component({
   selector: 'page-home',
@@ -19,7 +20,8 @@ export class HomePage {
   displayName;  
 
   constructor(public navCtrl: NavController, private firebaseService:FirebaseService, 
-    private afAuth: AngularFireAuth, public loadingCtrl: LoadingController) {
+    private afAuth: AngularFireAuth, public loadingCtrl: LoadingController,
+    public modalCtrl: ModalController ) {
     afAuth.authState.subscribe(user => {
       if (!user) {
         this.displayName = null;
@@ -64,9 +66,20 @@ export class HomePage {
   signOut() {
     this.afAuth.auth.signOut();
   }
-  countrySelected(country) {
+
+  viewCities(country) {
     this.navCtrl.push(CitiesPage,{
       country
     })
+  }
+
+  popupCountryInfo(country) {
+
+    console.log(country);
+    let modal = this.modalCtrl.create
+    (CountryInfoPage, {
+      country
+    });
+    modal.present();
   }
 }

@@ -6,7 +6,7 @@
 
 <ion-content padding>
   <ion-list>
-    <button ion-item *ngFor="let country of countries | async" (click)="countrySelected(country)">
+    <button ion-item *ngFor="let country of countries | async" (tap)="viewCities(country)" (press)="popupCountryInfo(country)">
       <ion-avatar item-start>
         <img src="{{ country.flag}}">
       </ion-avatar>

@@ -64,9 +64,14 @@ export class HomePage {
   signOut() {
     this.afAuth.auth.signOut();
   }
-  countrySelected(country) {
+
+  viewCities(country) {
     this.navCtrl.push(CitiesPage,{
       country
     })
+  }
+
+  popupCountryInfo(country) {
+    console.log(country)
   }
 }

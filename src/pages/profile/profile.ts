@@ -16,7 +16,6 @@ export class ProfilePage {
         return;
       }
       this.user = user;
-      console.log(user);
     });
   }
 

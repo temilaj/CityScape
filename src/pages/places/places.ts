@@ -50,13 +50,6 @@ export class PlacesPage {
           }
         },
         {
-          text: 'Edit',
-          icon: !this.platform.is('ios') ? 'create' : null,
-          handler: () => {
-            console.log('Play clicked');
-          }
-        },
-        {
           text: 'Share',
           icon: !this.platform.is('ios') ? 'share' : null,
           handler: () => {
@@ -74,9 +67,6 @@ export class PlacesPage {
           text: 'Cancel',
           role: 'cancel',
           icon: !this.platform.is('ios') ? 'close' : null,
-          // handler: () => {
-          //   console.log('Cancel clicked');
-          // }
         }
       ]
     });

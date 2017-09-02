@@ -7,12 +7,6 @@ import { HomePage } from "../home/home";
 import { Platform, IonicPage } from 'ionic-angular';
 import { Facebook } from '@ionic-native/facebook';
 
-/**
- * Generated class for the AuthPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 @IonicPage()
 @Component({
   selector: 'page-auth',
@@ -60,7 +54,6 @@ export class AuthPage {
       this.afAuth.auth
         .signInWithPopup(new firebase.auth.FacebookAuthProvider())
         .then(res => {
-          console.log(res);
           this.showToast();
           this.navCtrl.push(HomePage);
         }).catch(err => {

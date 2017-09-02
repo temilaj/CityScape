@@ -29,20 +29,8 @@ export class HomePage {
       }
       this.displayName = user.displayName;
       this.user = user;
-      console.log(user);
-
     });
   }
-
-  // ionViewCanEnter() {
-  //   this.afAuth.authState.subscribe(user => {
-  //     if (!user) {
-  //       this.displayName = null;        
-  //     }
-  //     this.user = user;
-  //     this.displayName = user.displayName;      
-  //   });
-  // }
 
   ionViewDidLoad() {
     this.countries = this.firebaseService.getCountries();
@@ -74,8 +62,6 @@ export class HomePage {
   }
 
   popupCountryInfo(country) {
-
-    console.log(country);
     let modal = this.modalCtrl.create
     (CountryInfoPage, {
       country

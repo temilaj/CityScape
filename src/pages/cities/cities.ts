@@ -4,12 +4,7 @@ import { IonicPage, NavController, NavParams, ActionSheetController, Platform } 
 import { FirebaseListObservable } from 'angularfire2/database';
 import { FirebaseService } from "../../providers/firebase.service";
 import { PlacesPage } from "../places/places";
-/**
- * Generated class for the CitiesPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({

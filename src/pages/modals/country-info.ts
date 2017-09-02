@@ -12,6 +12,7 @@ export class CountryInfoPage {
   constructor(public viewCtrl: ViewController, 
     public navCtrl: NavController,  public navParams: NavParams) {
       this.country = this.navParams.get('country');
+      console.log(this.country);
   }
 
   dismiss() {

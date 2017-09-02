@@ -48,17 +48,14 @@ export class FirebaseService {
   }
   
   addSpot(spot) {
-    console.log(spot);
     this.firebaseDb.list('/places').push(spot);
   }
 
   deleteSpot(id) {
-    console.log('removing spot '+id)
-    this.firebaseDb.list('/places').remove(id);
+    this.firebaseDb.list('/places').remove(id).then;
   }
 
   updateSpot(id, spot) {
-    console.log('updating spot '+id)
     this.firebaseDb.list('/places').update(id, spot);
   }
 

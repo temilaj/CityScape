@@ -13,7 +13,7 @@
   </ion-header>
   
   <ion-content>
-    <ion-list>
+    <!-- <ion-list>
       <ion-item>
         <ion-avatar item-start>
           <img src="{{ country.flag }}">
@@ -21,5 +21,26 @@
         <h2>{{ country.name }}</h2>
         <p>{{ country.Brussels }}</p>
       </ion-item>
+    </ion-list> -->
+
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="{{ country.flag }}">
+        </ion-thumbnail>
+        <h2>{{ country.name }}</h2>
+        <h3>Region {{ country.region }}</h3>
+        <p><b>Population</b> {{ country.population }}</p>
+        <ion-note item-end>{{ country.timezones[0] }}</ion-note>
+      </ion-item>
+      <button ion-item *ngFor="let border of country.borders">
+        {{ border }}
+      </button> 
+      <!-- <ion-item *ngFor="let item of character['items']">
+        {{item.title}}
+        <ion-note item-end>
+          {{item.note}}
+        </ion-note>
+      </ion-item> -->
     </ion-list>
 </ion-content>

@@ -13,34 +13,24 @@
   </ion-header>
   
   <ion-content>
-    <!-- <ion-list>
-      <ion-item>
-        <ion-avatar item-start>
-          <img src="{{ country.flag }}">
-        </ion-avatar>
-        <h2>{{ country.name }}</h2>
-        <p>{{ country.Brussels }}</p>
-      </ion-item>
-    </ion-list> -->
-
     <ion-list>
       <ion-item>
         <ion-thumbnail item-start>
           <img src="{{ country.flag }}">
         </ion-thumbnail>
         <h2>{{ country.name }}</h2>
-        <h3>Region {{ country.region }}</h3>
-        <p><b>Population</b> {{ country.population }}</p>
+        <h4>Capital: {{ country.capital }}</h4>
+        <h4>Region: {{ country.region }}</h4>
+        <h4>Currency: {{ country.currencies[0].name }} {{ country.currencies[0].symbol }}</h4>
+        <p>Population: {{ country.population }}</p>
+        <ion-note>Domain: {{ country.topLevelDomain[0] }}</ion-note>
         <ion-note item-end>{{ country.timezones[0] }}</ion-note>
       </ion-item>
-      <button ion-item *ngFor="let border of country.borders">
-        {{ border }}
-      </button> 
-      <!-- <ion-item *ngFor="let item of character['items']">
-        {{item.title}}
+      <ion-item *ngFor="let language of country.languages">
+        {{ language.name }}
         <ion-note item-end>
-          {{item.note}}
+          {{ language.nativeName }}
         </ion-note>
-      </ion-item> -->
+      </ion-item>
     </ion-list>
 </ion-content>

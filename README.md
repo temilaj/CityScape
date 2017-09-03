@@ -1,4 +1,5 @@
 # City Scape
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) 
 
 Simple app to demonstrate security, social authentication and realtime date in cross platform mobile apps, using the ionic framework and firebase.
 
@@ -43,3 +44,7 @@ $ ionic cordova build ios
 
 ### iOS
 ![iOS showcase](/screenshots/ios-showcase.png)
+
+## LICENSE
+
+#### [MIT](./LICENSE) © [Temi Lajumoke](http://temilajumoke.com)

@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
 import { AngularFireAuth } from "angularfire2/auth";
 import * as firebase from 'firebase/app';
-import { HomePage } from "../home/home";
 
 import { Platform, IonicPage } from 'ionic-angular';
 import { Facebook } from '@ionic-native/facebook';
+import { TabsPage } from "../tabs/tabs";
 
 @IonicPage()
 @Component({
@@ -39,7 +39,7 @@ export class AuthPage {
         return;
       }
       this.displayName = user.displayName;      
-      this.navCtrl.push(HomePage);
+      this.navCtrl.push(TabsPage);
     });
   }
 
@@ -55,9 +55,8 @@ export class AuthPage {
         .signInWithPopup(new firebase.auth.FacebookAuthProvider())
         .then(res => {
           this.showToast();
-          this.navCtrl.push(HomePage);
         }).catch(err => {
-          this.error =err;
+          this.error = err;
         });
     }
 

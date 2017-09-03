@@ -33,8 +33,7 @@ export class HomePage {
   }
 
   ionViewDidLoad() {
-    this.countries = this.firebaseService.getCountries();
-    let loader = this.loadingCtrl.create({
+    const loader = this.loadingCtrl.create({
       content: "loading countires",
     });
     
@@ -42,13 +41,6 @@ export class HomePage {
       this.countries = this.firebaseService.getCountries();
       loader.dismiss();
     });
-  }
-  
-  stopLoading() {
-    let loader = this.loadingCtrl.create({
-      content: "loading countires",
-    });
-    loader.dismiss();
   }
 
   signOut() {

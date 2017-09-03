@@ -1,12 +1,16 @@
+# City Scape
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
+## Prerequisites
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+- Node.js and npm.
+- Cordova 
+- Ionic Cli
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+![Facebook Login iPhone](/screenshots/facebook-login-iphone.png)
 
-### With the Ionic CLI:
+### Getting started:
 
 Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
@@ -15,12 +19,11 @@ $ sudo npm install -g ionic cordova
 $ ionic start myTabs tabs
 ```
 
-Then, to run it, cd into `myTabs` and run:
+Then, to run it, cd into `cityScape` and run:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ npm install
+$ ionic cordova build android install
+$ ionic cordova build ios install
+$ ionic serve
 ```
-
-Substitute ios for android if not on a Mac.
-

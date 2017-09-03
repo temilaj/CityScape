@@ -38,7 +38,8 @@ $ ionic cordova build ios
 ```
 
 ## Result
+### Android
+![Android Showcasce](/screenshots/android-showcase.png)
 
-![Facebook Login iPhone](/screenshots/facebook-login-iphone.png)
-![Countries List iPhone](/screenshots/countries-list-iphone.png)
-![Countries List Android](/screenshots/countries-list-android.png)
+### iOS
+![iOS showcase](/screenshots/ios-showcase.png)
